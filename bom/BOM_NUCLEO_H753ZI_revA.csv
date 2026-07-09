@@ -1,0 +1,18 @@
+Designator,Category,Part,Qty,Preferred source,Website,Notes
+U1,Main board,NUCLEO-H753ZI STM32 Nucleo-144 development board,1,ST / DigiKey / Mouser,https://www.st.com/en/evaluation-tools/nucleo-h753zi.html,Primary controller board; active ST product in volume production.
+U2-U5,Bus buffers,SN74LVC245APWR or SN74LVC245AN,4,DigiKey / Mouser,https://www.ti.com/product/SN74LVC245A,8-bit bus transceivers for data/address/control isolation.
+U6-U7,Optional level translators,SN74LVC8T245 or TXS0108E class translator,2,DigiKey / Mouser,https://www.ti.com/product/SN74LVC8T245,Use only if exact MD2202 parts require voltage translation.
+J1,Source socket,32-pin 0.6in DIP ZIF socket,1,3M Textool / Aries / DigiKey,https://www.digikey.com/en/products/filter/sockets-for-ics-transistors/409,Source DiskOnChip socket.
+J2,Target socket,32-pin 0.6in DIP ZIF socket,1,3M Textool / Aries / DigiKey,https://www.digikey.com/en/products/filter/sockets-for-ics-transistors/409,Target DiskOnChip socket.
+J3,Adapter connector,ST Morpho-compatible 2.54mm headers for Nucleo-144,2,DigiKey / Mouser,https://www.digikey.com/,Headers connect adapter board to NUCLEO-H753ZI.
+DISP1,Display,2.8in or 3.2in SPI TFT ILI9341/ILI9488,1,Adafruit / DigiKey / Amazon,https://www.adafruit.com/product/1770,Menu and clone progress display.
+SW1,Encoder,EC11 rotary encoder with push switch,1,Adafruit / DigiKey,https://www.adafruit.com/product/377,Menu navigation.
+SW2-SW5,Buttons,16mm momentary pushbuttons,4,Adafruit / DigiKey / Mouser,https://www.adafruit.com/product/1504,Read Clone Verify Write.
+LED1-LED4,Status LEDs,3mm or 5mm LEDs with resistors,4,DigiKey / Mouser,https://www.digikey.com/,Power Busy Pass Fail indicators.
+J4,Storage,SPI microSD breakout or socket module,1,Adafruit / SparkFun / DigiKey,https://www.adafruit.com/product/4682,Stores disk images and operation logs.
+PWR1,Power,5V USB-C supply module or direct Nucleo USB power,1,DigiKey / Adafruit,https://www.digikey.com/,Use stable 5V supply; verify Nucleo power jumper setup.
+R*,Series resistors,33 ohm 0603/0805 resistor array or discrete,1 set,DigiKey / Mouser,https://www.digikey.com/,Optional series damping on fast bus lines.
+C*,Decoupling caps,0.1uF ceramic capacitors,20,DigiKey / Mouser,https://www.digikey.com/,Place near ZIF sockets and bus buffers.
+MECH1,Enclosure,3D-printed OpenSCAD enclosure,1,Local print,mechanical/openscad,220x160mm footprint fits 240x240 build plate.
+MECH2,Fasteners,M3 heat-set inserts and M3 screws,1 set,McMaster / Amazon / DigiKey,https://www.mcmaster.com/heat-set-inserts/,Enclosure assembly and board mounting.
+MECH3,Feet,Rubber adhesive feet,4,DigiKey / McMaster,https://www.mcmaster.com/rubber-feet/,Professional desktop feel.
