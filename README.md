@@ -7,19 +7,21 @@ Prototype open-hardware/software project for a low-cost MD2202-D16 DiskOnChip cl
 ## Contents
 
 - `docs/BUILD_GUIDE.md` - assembly and operation guide
-- `docs/images/` - generated guide diagrams
 - `bom/BOM_component_sources.csv` - component list and supplier websites
 - `src/python_cloner/` - Python clone/verify control utility with simulation backend
-- `src/stm32h7_option/` - STM32H7/FMC microcontroller option skeleton
-- `stl/` - 3D-printable ASCII STL enclosure/control parts
+- `src/stm32h7_option/` - custom STM32 FMC controller-board skeleton
+- `mechanical/openscad/` - parametric 3D-printable enclosure model
 
 ## Recommended Hardware Paths
 
-### Path A: BeagleBone Black + external bus interface
+### Path A: Custom STM32 board with FMC-capable MCU
+Recommended primary direction. Use a currently available STM32 with FMC/external-memory support and enough exposed pins for an 8-bit asynchronous bus, socket selection, controls, display, and storage. This avoids depending on obsolete Nucleo-144 boards.
+
+### Path B: BeagleBone Black + external bus interface
 Useful for Linux UI, logging, SD-card imaging, and PRU/CPLD-style deterministic bus timing.
 
-### Path B: STM32H743 Nucleo-144 option
-Recommended as the easier microcontroller path because STM32H7 parts include FMC external-memory controller support, which better matches the asynchronous memory-bus style of the DiskOnChip interface.
+### Path C: Teensy 4.1 prototype
+Useful for early low-cost GPIO timing experiments, but less ideal than a true external-memory-controller design.
 
 ## Basic workflow
 
