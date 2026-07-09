@@ -1,0 +1,12 @@
+Category,Part,Qty,Source,Website,Notes
+Controller preferred,ST NUCLEO-H743ZI2 / STM32H743 Nucleo-144,1,ST / DigiKey / Mouser,https://www.st.com/en/evaluation-tools/nucleo-h743zi.html,Best microcontroller option: STM32H7 FMC can drive async SRAM-like buses.
+Controller Linux alternative,BeagleBone Black,1,BeagleBoard / DigiKey / Mouser,https://beagleboard.org/black,Linux UI/storage option; PRU helps deterministic I/O.
+Controller low-cost alternative,Teensy 4.1,1,PJRC,https://www.pjrc.com/store/teensy41.html,Fast GPIO and microSD; easier than classic Arduino.
+ZIF socket,"32-pin DIP ZIF, 0.6 in wide, 2.54 mm pitch",2,3M Textool / Aries / DigiKey / Mouser,https://www.digikey.com/en/product-highlight/3/3m/zip-dip-sockets,Use quality sockets; cheap sockets wear out quickly.
+Display,2.4 inch ILI9341 SPI TFT,1,Adafruit / DigiKey,https://www.adafruit.com/product/2478,SPI display for menu/progress.
+Rotary encoder,Panel-mount rotary encoder with pushbutton,1,Adafruit / DigiKey,https://www.adafruit.com/product/377,Menu navigation.
+Buttons,16 mm illuminated momentary pushbutton,4,Adafruit / DigiKey,https://www.adafruit.com/product/1439,Clone/Verify/Read/Write front-panel buttons.
+Bus transceiver,SN74LVC245A or equivalent 8-bit bus transceiver,2-4,Texas Instruments / DigiKey / Mouser,https://www.digikey.com/en/products/base-product/texas-instruments/296/74LVC245/6469,Data bus and optional address/control buffering.
+Optional CPLD,XC9572XL-10VQ64C or similar,1,AMD/Xilinx / Mouser,https://www.mouser.com/ProductDetail/AMD-Xilinx/XC9572XL-10VQ64C,Only needed if using Linux SBC GPIO instead of STM32 FMC.
+Hardware,M3 heat-set inserts + M3 screws,1 set,McMaster/Amazon/DigiKey,https://www.mcmaster.com/heat-set-inserts/,Mounting enclosure and boards.
+Power,5 V USB-C power supply,1,Any reputable electronics supplier,https://www.digikey.com/,Size for controller + display + logic.
