@@ -1,0 +1,29 @@
+Designator,Subsystem,Part,Qty,Notes
+U1,MCU,STM32H753 MCU,1,Production MCU replacing NUCLEO-H753ZI board.
+Y1,Clock,HSE crystal/resonator,1,Use STM32H753 reference design values.
+Y2,Clock,LSE 32.768kHz crystal,1,Optional RTC/log timestamp support.
+U2,Power,3.3V regulator,1,Powers MCU logic display IO SD cards and bus buffers.
+U3,Power,DiskOnChip VCC rail regulator/selector,1,Support verified 3.3V or 5V DiskOnChip variants.
+U4-U7,Bus interface,8-bit bus transceivers,4,Address/data/control buffering.
+U8-U9,Level shifting,dual-supply level translators,2,Populate only if 5V DiskOnChip support is required.
+U10,Safety,Target write-enable latch/gate,1,Prevents accidental target writes during reset/fault.
+J1,Disk socket,Premium 32-pin ZIF SOURCE socket,1,Aries/3M/Textool.
+J2,Disk socket,Premium 32-pin ZIF TARGET socket,1,Aries/3M/Textool.
+J3,Display,5.0in touchscreen connector,1,Match selected display module pinout.
+J4,Storage,SD1 microSD socket,1,System/log/update card.
+J5,Storage,SD2 microSD socket,1,Image/archive card.
+J6,USB,USB-C service connector,1,Firmware update/debug/service.
+J7,Debug,SWD header,1,Programming and debug.
+J8,Power,5V DC input connector,1,Panel or board mounted.
+J9,Fan,40mm fan connector,1,5V fan PWM/tach optional.
+SW1,UI,Clone pushbutton,1,Physical quick action.
+SW2,UI,Cancel/Back pushbutton,1,Physical safety/back action.
+LED1,Status,Power LED,1,Front panel.
+LED2,Status,Busy LED,1,Front panel.
+LED3,Status,Pass LED,1,Front panel.
+LED4,Status,Fail LED,1,Front panel.
+R*,Passives,Pullups/series/LED resistors,as required,10k pullups 33R series 1k LED typical.
+C*,Passives,Decoupling/bulk capacitors,as required,0.1uF and 10nF near MD2202 sockets; bulk caps per rail.
+FB*,Passives,Ferrite beads,2,Power filtering for DOC and display rails.
+TP*,Test,Bus/control test points,as required,A0-A12 D0-D7 CE OE WE VCC GND.
+M*,Mechanical,M3 mounting holes,as required,Match 118mm enclosure standoffs.
