@@ -1,0 +1,35 @@
+Net,NUCLEO/STM32 side,Buffer/logic,MD2202 SOURCE,MD2202 TARGET,Notes
+DOC_A0,FMC/GPIO_A0,Address buffer out,Pin 12,Pin 12,Shared address bus.
+DOC_A1,FMC/GPIO_A1,Address buffer out,Pin 11,Pin 11,Shared address bus.
+DOC_A2,FMC/GPIO_A2,Address buffer out,Pin 10,Pin 10,Shared address bus.
+DOC_A3,FMC/GPIO_A3,Address buffer out,Pin 9,Pin 9,Shared address bus.
+DOC_A4,FMC/GPIO_A4,Address buffer out,Pin 8,Pin 8,Shared address bus.
+DOC_A5,FMC/GPIO_A5,Address buffer out,Pin 7,Pin 7,Shared address bus.
+DOC_A6,FMC/GPIO_A6,Address buffer out,Pin 6,Pin 6,Shared address bus.
+DOC_A7,FMC/GPIO_A7,Address buffer out,Pin 5,Pin 5,Shared address bus.
+DOC_A8,FMC/GPIO_A8,Address buffer out,Pin 23,Pin 23,Shared address bus.
+DOC_A9,FMC/GPIO_A9,Address buffer out,Pin 25,Pin 25,Shared address bus.
+DOC_A10,FMC/GPIO_A10,Address buffer out,Pin 27,Pin 27,Shared address bus.
+DOC_A11,FMC/GPIO_A11,Address buffer out,Pin 26,Pin 26,Shared address bus.
+DOC_A12,FMC/GPIO_A12,Address buffer out,Pin 4,Pin 4,Shared address bus.
+DOC_D0,FMC/GPIO_D0,Bidir transceiver,Pin 13,Pin 13,Shared data bus.
+DOC_D1,FMC/GPIO_D1,Bidir transceiver,Pin 14,Pin 14,Shared data bus.
+DOC_D2,FMC/GPIO_D2,Bidir transceiver,Pin 15,Pin 15,Shared data bus.
+DOC_D3,FMC/GPIO_D3,Bidir transceiver,Pin 17,Pin 17,Shared data bus.
+DOC_D4,FMC/GPIO_D4,Bidir transceiver,Pin 18,Pin 18,Shared data bus.
+DOC_D5,FMC/GPIO_D5,Bidir transceiver,Pin 19,Pin 19,Shared data bus.
+DOC_D6,FMC/GPIO_D6,Bidir transceiver,Pin 20,Pin 20,Shared data bus.
+DOC_D7,FMC/GPIO_D7,Bidir transceiver,Pin 21,Pin 21,Shared data bus.
+DOC_OE_N,FMC_NOE/GPIO,Control buffer,Pin 24,Pin 24,Pull high by default.
+DOC_SRC_CE_N,FMC_NE/GPIO,Control buffer,Pin 22,,Source chip enable.
+DOC_TGT_CE_N,FMC_NE/GPIO,Control buffer,,Pin 22,Target chip enable.
+DOC_SRC_WE_N,Hardware pullup only,No firmware pulldown,Pin 31,,Source write-protect.
+DOC_TGT_WE_N,FMC_NWE/GPIO gated,Control buffer,,Pin 31,Target write enable.
+DOC_VCC,3.3V or 5V selected rail,Power filtering,Pin 32,Pin 32,Voltage must match part variant.
+GND,GND,Ground plane,Pin 16,Pin 16,Common ground.
+NC1,,,Pin 1,Pin 1,Leave floating.
+NC2,,,Pin 2,Pin 2,Leave floating.
+NC3,,,Pin 3,Pin 3,Leave floating.
+NC28,,,Pin 28,Pin 28,Leave floating.
+NC29,,,Pin 29,Pin 29,Leave floating.
+NC30,,,Pin 30,Pin 30,Leave floating.
