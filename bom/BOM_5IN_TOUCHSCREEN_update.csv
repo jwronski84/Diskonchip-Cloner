@@ -1,0 +1,6 @@
+Designator,Category,Part,Qty,Preferred low-cost source,Quality note
+DISP1,Touch display,5.0 inch 800x480 TFT touchscreen module,1,AliExpress / BuyDisplay / Amazon,Prefer a module with documented driver IC and touch controller; resistive touch is easiest.
+SW2,Physical button,16 mm momentary CLONE button,1,AliExpress / DigiKey,Illuminated optional.
+SW3,Physical button,16 mm momentary CANCEL/BACK button,1,AliExpress / DigiKey,Use red or black cap.
+SW1,Optional encoder,EC11 rotary encoder with push switch,0-1,AliExpress / DigiKey,Optional now that touchscreen is primary UI.
+LED1-LED4,Status LEDs,Power Busy Pass Fail,4,DigiKey / Mouser / AliExpress,Retain for at-a-glance status.
