@@ -1,0 +1,33 @@
+MD2202 DIP pin,Signal,Type,Connects to,Notes
+1,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+2,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+3,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+4,A12,Input,Address bus A12,Shared to source and target through address buffer.
+5,A7,Input,Address bus A7,Shared to source and target through address buffer.
+6,A6,Input,Address bus A6,Shared to source and target through address buffer.
+7,A5,Input,Address bus A5,Shared to source and target through address buffer.
+8,A4,Input,Address bus A4,Shared to source and target through address buffer.
+9,A3,Input,Address bus A3,Shared to source and target through address buffer.
+10,A2,Input,Address bus A2,Shared to source and target through address buffer.
+11,A1,Input,Address bus A1,Shared to source and target through address buffer.
+12,A0,Input,Address bus A0,Shared to source and target through address buffer.
+13,D0,I/O,Data bus D0,Bidirectional through transceiver.
+14,D1,I/O,Data bus D1,Bidirectional through transceiver.
+15,D2,I/O,Data bus D2,Bidirectional through transceiver.
+16,VSS,Power,GND,Ground.
+17,D3,I/O,Data bus D3,Bidirectional through transceiver.
+18,D4,I/O,Data bus D4,Bidirectional through transceiver.
+19,D5,I/O,Data bus D5,Bidirectional through transceiver.
+20,D6,I/O,Data bus D6,Bidirectional through transceiver.
+21,D7,I/O,Data bus D7,Bidirectional through transceiver.
+22,CE#,Input,Per-socket chip enable,Separate CE# for SOURCE and TARGET.
+23,A8,Input,Address bus A8,Shared to source and target through address buffer.
+24,OE#,Input,Output enable,Shared OE# read strobe.
+25,A9,Input,Address bus A9,Shared to source and target through address buffer.
+26,A11,Input,Address bus A11,Shared to source and target through address buffer.
+27,A10,Input,Address bus A10,Shared to source and target through address buffer.
+28,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+29,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+30,NC,No connect,Leave floating,Datasheet says NC pins should be left floating.
+31,WE#,Input,Per-socket write enable,TARGET controllable; SOURCE hardware write-protected.
+32,VCC,Power,3.3V or 5V verified rail,Use exact device variant voltage.
